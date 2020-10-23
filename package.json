@@ -1,0 +1,20 @@
+{
+  "name": "arvelie",
+  "version": "0.3.0",
+  "main": "lib.js",
+  "bin": {
+    "arvelie": "cli.js"
+  },
+  "files": [
+    "lib.js",
+    "cli.js"
+  ],
+  "author": "Pine Wu <octref@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octref/arvelie"
+  },
+  "homepage": "https://github.com/octref/arvelie",
+  "bugs": "https://github.com/octref/arvelie/issues",
+  "license": "MIT"
+}
