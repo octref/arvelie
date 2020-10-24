@@ -1,6 +1,6 @@
 {
   "name": "arvelie",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "lib.js",
   "bin": {
     "arvelie": "cli.js"
