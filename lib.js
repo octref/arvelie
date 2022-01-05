@@ -36,7 +36,10 @@ function fromArvelie(input) {
 }
 
 function toArvelie(input) {
-  const date = new Date(input)
+  /**
+   * initiate date with timezone so it's not yesterday
+   */
+  const date = new Date(input + 'T00:00')
 
   const days = daysIntoYear(date)
 
